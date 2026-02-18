@@ -1090,14 +1090,13 @@ body.gallery-modal-open {
     line-height: 1.7;
 }
 
-.contact-item-content a {
+.contact-item-content a,
+.contact-item-content a:link,
+.contact-item-content a:visited,
+.contact-item-content a:active {
     color: rgba(255,255,255,0.8);
     text-decoration: none;
     transition: color 0.3s ease;
-}
-
-.contact-item-content a:visited {
-    color: rgba(255,255,255,0.8);
 }
 
 .contact-item-content a:hover {
@@ -1323,14 +1322,13 @@ footer {
     margin-top: 3px;
 }
 
-.footer-contact-item a {
+.footer-contact-item a,
+.footer-contact-item a:link,
+.footer-contact-item a:visited,
+.footer-contact-item a:active {
     color: rgba(255,255,255,0.7);
     text-decoration: none;
     transition: color 0.3s ease;
-}
-
-.footer-contact-item a:visited {
-    color: rgba(255,255,255,0.7);
 }
 
 .footer-contact-item a:hover {

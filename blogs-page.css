@@ -484,7 +484,10 @@ body.blogs-page {
     font-size: 1.2rem;
 }
 
-.footer-contact-item a {
+.footer-contact-item a,
+.footer-contact-item a:link,
+.footer-contact-item a:visited,
+.footer-contact-item a:active {
     color: var(--text-gray);
     text-decoration: none;
     transition: color 0.3s ease;
