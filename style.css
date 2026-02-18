@@ -1090,6 +1090,20 @@ body.gallery-modal-open {
     line-height: 1.7;
 }
 
+.contact-item-content a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item-content a:visited {
+    color: rgba(255,255,255,0.8);
+}
+
+.contact-item-content a:hover {
+    color: var(--accent);
+}
+
 .contact-social {
     margin-top: 3rem;
     padding-top: 2rem;
@@ -1313,6 +1327,10 @@ footer {
     color: rgba(255,255,255,0.7);
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+.footer-contact-item a:visited {
+    color: rgba(255,255,255,0.7);
 }
 
 .footer-contact-item a:hover {
